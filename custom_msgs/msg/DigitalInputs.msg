@@ -1,0 +1,4 @@
+bool negative_limit_switch
+bool positive_limit_switch
+bool homing_switch
+

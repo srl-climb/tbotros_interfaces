@@ -1,0 +1,5 @@
+---
+string channel
+string bustype
+int32 bitrate
+float32 syncrate

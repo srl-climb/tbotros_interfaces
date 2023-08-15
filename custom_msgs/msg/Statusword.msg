@@ -1,0 +1,13 @@
+bool ready_to_switch_on
+bool switched_on
+bool operation_enabled
+bool fault
+bool voltage_enabled
+bool quick_stop
+bool switch_on_disabled
+bool warning
+bool remote
+bool target_reached
+bool internal_limit_active
+bool setpoint_acknowledge_or_speed_or_homing_attained
+bool deviation_error

@@ -1,0 +1,8 @@
+int8 mode 0
+int64[] goal_configuration [0,1,2,3,4,5]
+float64[7] goal_pose [0,0,0,1,0,0,0]
+int8 gripper_index 0
+int64 hold_index 0
+---
+---
+string message
