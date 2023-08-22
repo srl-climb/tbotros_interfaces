@@ -1,22 +1,24 @@
-# move mode: profile position (0), homing (1), continuous positioning (2)
+# move modes: 
+# 0: profile positioning mode
+# 1: homing with config parameters
+# 2: cyclic synchronous positioning mode 
+# 3: homing to initial position
+# 4: homing to offset
 int8 mode 0
 
-# profile parameters
+# profile parameters (mode 0, 2 only)
 float64 profile_velocity 0
 float64 profile_acceleration 0
 float64 profile_deceleration 0
 
-# abs. or rel. move (mode: 0)
+# abs. or rel. move (mode 0 only)
 bool absolute_relative 1
 
-# target position (mode: 0)
+# target position (mode 0 only)
 float64 target_position 0
 
-# target position topic name (mode: 2)
-string target_position_topic "target_position"
-
-# homing method and offset (mode: 1)
-int8    method 35
+# homing offset (mode 4 only)
+float64 homing_offset 0
 ---
 ---
 float64 actual_position 0
