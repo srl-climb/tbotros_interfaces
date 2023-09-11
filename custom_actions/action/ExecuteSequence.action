@@ -3,3 +3,4 @@
 float64 progress
 uint64 length
 uint64 current
+string message
