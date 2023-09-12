@@ -1,3 +1,3 @@
 # tbotros_interfaces
 
-Contains all ROS Interfaces (Messages, Actions, Services) for Tetherbot
+Contains all ROS2 interfaces (Messages, Actions, Services) for Tetherbot
