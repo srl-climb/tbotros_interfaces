@@ -1,6 +1,7 @@
+uint64 start
 ---
 ---
 float64 progress
 uint64 length
-uint64 current
+int64 current
 string message
