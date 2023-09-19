@@ -37,14 +37,16 @@ find_package(rosidl_default_generators REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Statusword.msg"
-  "msg/MotorPosition.msg"
   "msg/CanError.msg"
   "msg/MarkerTransform.msg"
   "msg/DigitalInputs.msg"
   "msg/Matrix.msg"
   "msg/BoolArray.msg"
   "msg/Float64Array.msg"
+  "msg/Float64Stamped.msg"
+  "msg/Int16Stamped.msg"
   DEPENDENCIES geometry_msgs
+  DEPENDENCIES builtin_interfaces
 )
 
 ament_package()
