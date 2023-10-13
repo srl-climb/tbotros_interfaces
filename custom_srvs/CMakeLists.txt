@@ -44,6 +44,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/Tension.srv"
   "srv/SaveFile.srv"
   "srv/LoadFile.srv"
+  "srv/DisplayCommands.srv"
   DEPENDENCIES geometry_msgs
 )
 
